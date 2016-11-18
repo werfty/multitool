@@ -1,3 +1,5 @@
+// run travis run
+
 package main
 
 import "github.com/sparrc/go-ping"
