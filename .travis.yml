@@ -8,5 +8,4 @@ go:
 install: true
 
 script:
-- go get ./...
-- go build werfty-mt
+- go build werfty-mt.go
