@@ -1,8 +1,16 @@
 dist: trusty
 language: bash
-os:
-- linux
-- osx
+#os:
+#- linux
+#- osx
+
+global:
+  - BUILD_GOARCH=amd64
+matrix:
+  - BUILD_GOOS=linux
+  - BUILD_GOOS=darwin
+  - BUILD_GOOS=windows
+
 go:
   - 1.7
 install: true
