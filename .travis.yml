@@ -8,4 +8,5 @@ go:
 install: true
 
 script:
+- go get "github.com/sparrc/go-ping"
 - cd /home/travis/build/werfty/multitool; go build werfty-mt.go
