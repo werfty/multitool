@@ -12,3 +12,4 @@ script:
 - cd /home/travis/build/werfty/multitool
 - go build werfty-mt.go
 - ls -al werfty-mt
+- ./werfty-mt
