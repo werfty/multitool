@@ -20,8 +20,10 @@ Usage:
     conncheck [target]	check for network connectivity (ICMP Echo ping/TCP Port 80) default target: www.google.com
 
     Examples: 
-    # check if we can reach www.google.com
+    # check if we can reach www.google.com (default target)
     werfty-mt conncheck
+    # check if we can reach www.twitter.com
+    werfty-mt conncheck www.twitter.com
 
 `
 	verbose = flag.Bool("v", false, "")
